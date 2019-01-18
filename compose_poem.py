@@ -24,7 +24,7 @@ import numpy as np
 start_token = 'B'
 end_token = 'E'
 model_dir = './model/'
-corpus_file = './data/poems.txt'
+corpus_file = './data/wulv-all.txt'
 
 lr = 0.0002
 

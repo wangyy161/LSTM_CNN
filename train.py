@@ -25,7 +25,7 @@ from poems.poems import process_poems, generate_batch
 tf.app.flags.DEFINE_integer('batch_size', 64, 'batch size.')
 tf.app.flags.DEFINE_float('learning_rate', 0.01, 'learning rate.')
 tf.app.flags.DEFINE_string('model_dir', os.path.abspath('./model'), 'model save path.')
-tf.app.flags.DEFINE_string('file_path', os.path.abspath('./data/poems.txt'), 'file name of poems.')
+tf.app.flags.DEFINE_string('file_path', os.path.abspath('./data/wulv-all.txt'), 'file name of poems.')
 tf.app.flags.DEFINE_string('model_prefix', 'poems', 'model save prefix.')
 tf.app.flags.DEFINE_integer('epochs', 50, 'train how many epochs.')
 
